@@ -1,0 +1,319 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap");
+
+.shadow-box {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("/src/img/pexels-johannes-plenio-1103970.jpg");
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+body {
+  background-color: #4b4bfa4d;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 3000px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 3000px;
+  }
+}
+
+#head1,
+#head2,
+#head3 {
+  opacity: 0;
+}
+
+#head1 {
+  -webkit-animation: finalFade 1 2s ease-in;
+  -moz-animation: finalFade 1 2s ease-in;
+  -o-animation: finalFade 1 2s ease-in;
+  animation: finalFade 1 2s ease-in;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+#head2 {
+  -webkit-animation: finalFade 1 2s ease-in;
+  -moz-animation: finalFade 1 2s ease-in;
+  -o-animation: finalFade 1 2s ease-in;
+  animation: finalFade 1 2s ease-in;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+#head3 {
+  -webkit-animation: finalFade 1 2s ease-in;
+  -moz-animation: finalFade 1 2s ease-in;
+  -o-animation: finalFade 1 2s ease-in;
+  animation: finalFade 1 2s ease-in;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+  color: black;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes finalFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes finalFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes finalFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes finalFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.durationSmooth {
+  animation-duration: 4000ms;
+  transition-duration: 4000ms;
+}
+
+.transformSmooth {
+  transition: transform 1000s ease 0s;
+}
+
+@media (min-width: 1024px) {
+  .d3 {
+    transform: perspective(1500px) rotateY(-10deg);
+    border-radius: 1rem;
+    transition: transform 1s ease 0s;
+
+    &:hover {
+      transform: perspective(3000px) rotateY(0deg);
+    }
+  }
+
+  .d3- {
+    transform: perspective(1500px) rotateY(10deg);
+    border-radius: 1rem;
+    transition: transform 1s ease 0s;
+
+    &:hover {
+      transform: perspective(3000px) rotateY(0deg);
+    }
+  }
+}
+
+.d3-sm {
+  @apply transform-none;
+}
+
+.d3--sm {
+  @apply transform-none;
+}
