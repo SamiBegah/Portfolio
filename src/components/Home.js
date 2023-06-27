@@ -10,7 +10,7 @@ function Home({ firstClick, setFirstClick }) {
       </h1>
 
       <h1 id="head2" className="header text-center">
-        I am Sami Begah, a front-web developper.
+        I am Sami Begah, a front-web developer.
       </h1>
       <h1 id="head3" className="header text-center">
         Please choose an option:
