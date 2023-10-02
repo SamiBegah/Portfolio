@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.01bd4d83.css",
-    "main.js": "/static/js/main.c80c6b4c.js",
+    "main.js": "/static/js/main.faaff313.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/frontend.gif": "/static/media/frontend.06ec94235cca9474cf0f.gif",
     "static/media/lalaland-4.png": "/static/media/lalaland-4.c3dd2f239109ae492ac0.png",
@@ -13,7 +13,7 @@
     "static/media/gpu-4.png": "/static/media/gpu-4.7026390d7a0e8bd694d9.png",
     "static/media/lalaland-2.png": "/static/media/lalaland-2.4a6e3895d3f455cde458.png",
     "static/media/gpu-3.png": "/static/media/gpu-3.45832693448eb880b8dc.png",
-    "static/media/cv.png": "/static/media/cv.2fc11ba15d9e86bbee3b.png",
+    "static/media/cv.png": "/static/media/cv.ecc33afa8019a2319eff.png",
     "static/media/gpu-logo.png": "/static/media/gpu-logo.2f7a497ad57b8eb791c2.png",
     "static/media/gpu-2.png": "/static/media/gpu-2.7457d953c055dc4cb356.png",
     "static/media/lalaland-logo.png": "/static/media/lalaland-logo.ef170003f810adaf0949.png",
@@ -29,11 +29,11 @@
     "static/media/taskpro-logo.png": "/static/media/taskpro-logo.579e98bc97f6da60571c.png",
     "index.html": "/index.html",
     "main.01bd4d83.css.map": "/static/css/main.01bd4d83.css.map",
-    "main.c80c6b4c.js.map": "/static/js/main.c80c6b4c.js.map",
+    "main.faaff313.js.map": "/static/js/main.faaff313.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01bd4d83.css",
-    "static/js/main.c80c6b4c.js"
+    "static/js/main.faaff313.js"
   ]
 }
