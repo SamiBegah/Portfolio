@@ -8,49 +8,14 @@
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
-  background-image: url("/src/img/pexels-johannes-plenio-1103970.jpg");
-  overflow-x: hidden;
-  min-height: 100vh;
-  min-width: 100vw;
-  margin: 0;
-
-  -webkit-animation: slidein 100s;
-  animation: slidein 100s;
-
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
-}
-
-body {
-  background-color: #4b4bfa4d;
-  background-size: cover;
-  min-height: 100%;
-  min-width: 100vw;
-  overflow-x: hidden;
-}
-
-html,
-body {
   height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
-main {
-  width: 100vw;
-  height: 100vh;
+body {
+  background-color: #e0ebf5;
+  min-height: 100vh;
+  padding: 0;
 }
 
 @-webkit-keyframes slidein {
@@ -316,4 +281,70 @@ main {
 
 .d3--sm {
   @apply transform-none;
+}
+
+.headerTitle {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.headerTitle h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f1faee;
+  font-size: 3rem;
+}
+
+#spare-time {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roller {
+  height: 5rem;
+  line-height: 5rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.roller .rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 12s infinite;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -5rem;
+  }
+  50% {
+    top: -10rem;
+  }
+  75% {
+    top: -15rem;
+  }
+}
+
+.text3d {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
 }

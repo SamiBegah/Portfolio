@@ -7,18 +7,18 @@ import Profile3 from "../img/profile-3.png";
 import Profile4 from "../img/profile-4.png";
 import { useLocation } from "react-router-dom";
 
-function Heading({ firstClick }) {
+function Heading() {
   const location = useLocation();
   let profileImage;
   switch (location.pathname) {
     case "/about":
-      profileImage = Profile1;
+      profileImage = Profile2;
       break;
     case "/projects":
-      profileImage = Profile4;
+      profileImage = Profile3;
       break;
     case "/contact":
-      profileImage = Profile3;
+      profileImage = Profile1;
       break;
     default:
       profileImage = Profile1;
@@ -26,26 +26,25 @@ function Heading({ firstClick }) {
 
   return (
     <div
-      className={`${
-        !firstClick ? "rounded-t-3xl" : ""
-      }  bg-white bg-opacity-90 text-black h-48 w-full flex flex-col sm:flex-row justify-between`}
+      className="
+          bg-[#fafafa]  text-black h-48 w-full flex flex-col sm:flex-row justify-between "
     >
-      <div className="p-4   sm:p-5 gap-2 sm:gap-5 flex items-center  ">
+      <div className="p-2 gap-2 sm:p-5 sm:gap-5 flex items-center  ">
         <div
-          className="bg-center w-24 md:w-28 h-24 md:h-28 border-white border-2 shadow-xl rounded-xl bg-cover"
+          className="bg-center bg-[#f2f2f2] w-24 md:w-28 h-24 md:h-28  shadow-md rounded-xl bg-cover"
           style={{
-            backgroundImage: `url(${firstClick ? profileImage : Profile2})`,
+            backgroundImage: `url(${profileImage})`,
           }}
         ></div>
         <div className="flex flex-col justify-between py-2">
           <div className="flex flex-col">
             <span className="font-bold text-lg"> Sami Begah </span>
-            <span className="whitespace-nowrap">Front-end Web Developer</span>
+            <span className="whitespace-nowrap">Junior Web Developer</span>
             <span>Montreal, Canada</span>
           </div>
           <div className="flex items-center gap-2 ">
             <span className="w-5 h-5  rounded-full animate-pulse bg-[#20C997] shadow-xl"></span>
-            <p className="font-bold text-sm">Currently looking for a job</p>
+            <p className="font-bold text-sm">Currently available</p>
           </div>
         </div>
       </div>
