@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01bd4d83.css",
+    "main.js": "/static/js/main.c80c6b4c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/frontend.gif": "/static/media/frontend.06ec94235cca9474cf0f.gif",
+    "static/media/lalaland-4.png": "/static/media/lalaland-4.c3dd2f239109ae492ac0.png",
+    "static/media/lalaland-3.png": "/static/media/lalaland-3.5a2e5ad3f080c6aedf9b.png",
+    "static/media/coding.gif": "/static/media/coding.3c1c185cd18479ac59bb.gif",
+    "static/media/gpu-1.png": "/static/media/gpu-1.5eaac33b01e2c76a5131.png",
+    "static/media/lalaland-1.png": "/static/media/lalaland-1.3d4cfa7c662709b00144.png",
+    "static/media/design.gif": "/static/media/design.a7f6a4f8f309819c4d98.gif",
+    "static/media/gpu-4.png": "/static/media/gpu-4.7026390d7a0e8bd694d9.png",
+    "static/media/lalaland-2.png": "/static/media/lalaland-2.4a6e3895d3f455cde458.png",
+    "static/media/gpu-3.png": "/static/media/gpu-3.45832693448eb880b8dc.png",
+    "static/media/cv.png": "/static/media/cv.2fc11ba15d9e86bbee3b.png",
+    "static/media/gpu-logo.png": "/static/media/gpu-logo.2f7a497ad57b8eb791c2.png",
+    "static/media/gpu-2.png": "/static/media/gpu-2.7457d953c055dc4cb356.png",
+    "static/media/lalaland-logo.png": "/static/media/lalaland-logo.ef170003f810adaf0949.png",
+    "static/media/taskpro-2.png": "/static/media/taskpro-2.76e0962a06067f78d456.png",
+    "static/media/taskpro-3.png": "/static/media/taskpro-3.0105f0bfc18daecd26f4.png",
+    "static/media/taskpro-4.png": "/static/media/taskpro-4.c7c25c293a6edc2c6b65.png",
+    "static/media/profile-5.png": "/static/media/profile-5.89266685a86bf7f8526a.png",
+    "static/media/taskpro-1.png": "/static/media/taskpro-1.251b618cac98734055b6.png",
+    "static/media/profile-4.png": "/static/media/profile-4.b72fcf18d3090d6bd515.png",
+    "static/media/profile-2.png": "/static/media/profile-2.92208083e5d86bb18f66.png",
+    "static/media/profile-3.png": "/static/media/profile-3.01192712e42eb5392224.png",
+    "static/media/profile-1.png": "/static/media/profile-1.57ed07df32aa3a01b96a.png",
+    "static/media/taskpro-logo.png": "/static/media/taskpro-logo.579e98bc97f6da60571c.png",
+    "index.html": "/index.html",
+    "main.01bd4d83.css.map": "/static/css/main.01bd4d83.css.map",
+    "main.c80c6b4c.js.map": "/static/js/main.c80c6b4c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01bd4d83.css",
+    "static/js/main.c80c6b4c.js"
+  ]
+}
