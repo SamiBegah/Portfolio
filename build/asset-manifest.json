@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1ba2f97f.css",
-    "main.js": "/static/js/main.19906f22.js",
+    "main.js": "/static/js/main.a6a821d8.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/frontend.gif": "/static/media/frontend.06ec94235cca9474cf0f.gif",
     "static/media/lalaland-4.png": "/static/media/lalaland-4.c3dd2f239109ae492ac0.png",
@@ -29,11 +29,11 @@
     "static/media/taskpro-logo.png": "/static/media/taskpro-logo.579e98bc97f6da60571c.png",
     "index.html": "/index.html",
     "main.1ba2f97f.css.map": "/static/css/main.1ba2f97f.css.map",
-    "main.19906f22.js.map": "/static/js/main.19906f22.js.map",
+    "main.a6a821d8.js.map": "/static/js/main.a6a821d8.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba2f97f.css",
-    "static/js/main.19906f22.js"
+    "static/js/main.a6a821d8.js"
   ]
 }
