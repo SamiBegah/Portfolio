@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d107e223.css",
-    "main.js": "/static/js/main.b6be7012.js",
+    "main.css": "/static/css/main.9effe42e.css",
+    "main.js": "/static/js/main.e2e4f947.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/frontend.gif": "/static/media/frontend.06ec94235cca9474cf0f.gif",
     "static/media/lalaland-4.png": "/static/media/lalaland-4.c3dd2f239109ae492ac0.png",
@@ -28,12 +28,12 @@
     "static/media/profile-1.png": "/static/media/profile-1.57ed07df32aa3a01b96a.png",
     "static/media/taskpro-logo.png": "/static/media/taskpro-logo.579e98bc97f6da60571c.png",
     "index.html": "/index.html",
-    "main.d107e223.css.map": "/static/css/main.d107e223.css.map",
-    "main.b6be7012.js.map": "/static/js/main.b6be7012.js.map",
+    "main.9effe42e.css.map": "/static/css/main.9effe42e.css.map",
+    "main.e2e4f947.js.map": "/static/js/main.e2e4f947.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d107e223.css",
-    "static/js/main.b6be7012.js"
+    "static/css/main.9effe42e.css",
+    "static/js/main.e2e4f947.js"
   ]
 }
