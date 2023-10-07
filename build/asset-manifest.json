@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ba2f97f.css",
-    "main.js": "/static/js/main.a26c30fd.js",
+    "main.css": "/static/css/main.058cc09f.css",
+    "main.js": "/static/js/main.787ce9b8.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/frontend.gif": "/static/media/frontend.06ec94235cca9474cf0f.gif",
     "static/media/lalaland-4.png": "/static/media/lalaland-4.c3dd2f239109ae492ac0.png",
@@ -14,7 +14,7 @@
     "static/media/lalaland-2.png": "/static/media/lalaland-2.4a6e3895d3f455cde458.png",
     "static/media/gpu-3.png": "/static/media/gpu-3.45832693448eb880b8dc.png",
     "static/media/cv.png": "/static/media/cv.ecc33afa8019a2319eff.png",
-    "static/media/gpu-logo.png": "/static/media/gpu-logo.2f7a497ad57b8eb791c2.png",
+    "static/media/gpu-logo.png": "/static/media/gpu-logo.ffc6b94a0308b6c59f1d.png",
     "static/media/gpu-2.png": "/static/media/gpu-2.7457d953c055dc4cb356.png",
     "static/media/lalaland-logo.png": "/static/media/lalaland-logo.ef170003f810adaf0949.png",
     "static/media/taskpro-2.png": "/static/media/taskpro-2.76e0962a06067f78d456.png",
@@ -28,12 +28,12 @@
     "static/media/profile-1.png": "/static/media/profile-1.57ed07df32aa3a01b96a.png",
     "static/media/taskpro-logo.png": "/static/media/taskpro-logo.579e98bc97f6da60571c.png",
     "index.html": "/index.html",
-    "main.1ba2f97f.css.map": "/static/css/main.1ba2f97f.css.map",
-    "main.a26c30fd.js.map": "/static/js/main.a26c30fd.js.map",
+    "main.058cc09f.css.map": "/static/css/main.058cc09f.css.map",
+    "main.787ce9b8.js.map": "/static/js/main.787ce9b8.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ba2f97f.css",
-    "static/js/main.a26c30fd.js"
+    "static/css/main.058cc09f.css",
+    "static/js/main.787ce9b8.js"
   ]
 }
